@@ -4,7 +4,6 @@ import axios from 'axios';
 import {header} from "express-validator";
 import UserPayments from "../models/UserPayments.js";
 import UserHotels from "../models/UserHotels.js";
-import * as stripe from "stripe";
 
 export const getPayments = async (req, res) => {
     try {
